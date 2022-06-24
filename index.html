@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PasswordGeneration</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="password-container">
+        <h2>Password Generator</h2>
+        <div id="password">Password</div>
+        <div class="buttons_container">
+            <button id="generate">generate</button>
+            <button id="copy">copy</button>
+        </div>
+
+        <ul>
+            <li>
+                <input id="psw-length" placeholder="12"></input>
+                Length of password
+            </li>
+            <li>
+                <input type="checkbox" id="ch_special"></input>
+                Use special symbols !@#
+            </li>
+            <li>
+                <input type="checkbox" id="ch_literal"></input>
+                Use LITERAL symbols
+            </li>
+            <li>
+                <input type="checkbox" id="ch_digits"></input>
+                Use digits 0, 1...9
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
